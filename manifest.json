@@ -1,0 +1,11 @@
+{
+		"name": "Wave De-Usernamifier",
+		"version": "1.0",
+		"description": "Hides the usernames on Google Wave. The pictures are enough, right?",
+		"content_scripts": [ {
+				"all_frames": true,
+				"css": [ "disabler.css" ],
+				"matches": [ "http://wave.google.com/*", "https://wave.google.com/*" ]
+		} ]
+}
+
